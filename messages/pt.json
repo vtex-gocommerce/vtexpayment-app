@@ -1,0 +1,21 @@
+{
+  "admin.payment.vtexpayment.additionalData.description": "<p>Registrase ahora e active su tienda virtual: <a href='https://www.mercadopago.com.ar/registration-mp/?mode=mp' target='_blank' class='blue'>click aquí</a></p><ul class='g-pl5'><li>Acepte tarjetas VISA, MASTER, HIPERCARD, ELO directamente en su tienda.</li><li>Tarifa: consulte la condición de su cuenta directamente en Mercado Pago ya que la tarifa puede variar deacuerdo con el perfil de cada vendedor.</li><li>Para visualizar condiciones comerciales de cuotas, <a href='https://www.mercadopago.com.ar/ayuda/costos-financiacion_621' target='_blank' class='blue'>click aquí</a></li></ul>",
+  "admin.payment.vtexpayment.boxGeneral": "Geral",
+  "admin.payment.vtexpayment.boxApplicationSetup": "Configuração do aplicativo",
+  "admin.payment.vtexpayment.boxInstallments": "Parcelamento",
+  "admin.payment.vtexpayment.boxAdditionalSetup": "Configurações adicionais",
+  "admin.payment.vtexpayment.creditCardActive": "Cartão de crédito ativo",
+  "admin.payment.vtexpayment.redirectActive": "Redirect ativo",
+  "admin.payment.vtexpayment.bankInvoiceActive": "Boleto bancário ativo",
+  "admin.payment.vtexpayment.debitCardActive": "Cartão de débito ativo",
+  "admin.payment.vtexpayment.transferActive": "Transferência online ativa",
+  "admin.payment.vtexpayment.minimumValue": "Valor mínimo",
+  "admin.payment.vtexpayment.minimumValue.description": "Valor mínimo para exibir esta forma de pagamento",
+  "admin.payment.vtexpayment.minimumInstallmentValue": "Valor mínimo da parcela",
+  "admin.payment.vtexpayment.installments.numberOfInstallments": "Número de parcelas",
+  "admin.payment.vtexpayment.installments.numberOfInstallmentsInterestFree": "Parcelas sem juros",
+  "admin.payment.vtexpayment.installments.numberOfInstallmentsInterestFree.description": "Número de parcelas sem juros para esta forma de pagamento.",
+  "admin.payment.vtexpayment.softDescriptor": "Nome na fatura",
+  "admin.payment.vtexpayment.softDescriptor.description": "Texto impresso na fatura bancária do comprador",
+  "admin.payment.vtexpayment.maxInstallments": "Número máximo de parcelas (apenas para Redirect)"
+}

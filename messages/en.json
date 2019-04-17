@@ -1,0 +1,21 @@
+{
+  "admin.payment.vtexpayment.additionalData.description": "<p>Registrase ahora e active su tienda virtual: <a href='https://www.mercadopago.com.ar/registration-mp/?mode=mp' target='_blank' class='blue'>click aquí</a></p><ul class='g-pl5'><li>Acepte tarjetas VISA, MASTER, HIPERCARD, ELO directamente en su tienda.</li><li>Tarifa: consulte la condición de su cuenta directamente en Mercado Pago ya que la tarifa puede variar deacuerdo con el perfil de cada vendedor.</li><li>Para visualizar condiciones comerciales de cuotas, <a href='https://www.mercadopago.com.ar/ayuda/costos-financiacion_621' target='_blank' class='blue'>click aquí</a></li></ul>",
+  "admin.payment.vtexpayment.boxGeneral": "General",
+  "admin.payment.vtexpayment.boxApplicationSetup": "Application Setup",
+  "admin.payment.vtexpayment.boxInstallments": "Installments",
+  "admin.payment.vtexpayment.boxAdditionalSetup": "Additional Settings",
+  "admin.payment.vtexpayment.creditCardActive": "Active credit card?",
+  "admin.payment.vtexpayment.redirectActive": "Active redirect?",
+  "admin.payment.vtexpayment.bankInvoiceActive": "Active bank invoice?",
+  "admin.payment.vtexpayment.debitCardActive": "Active debit card?",
+  "admin.payment.vtexpayment.transferActive": "Active online transfer?",
+  "admin.payment.vtexpayment.minimumValue": "Minimum value",
+  "admin.payment.vtexpayment.minimumValue.description": "Minimum amount to display this form of payment",
+  "admin.payment.vtexpayment.minimumInstallmentValue": "Minimum installment value",
+  "admin.payment.vtexpayment.installments.numberOfInstallments": "Number of installments",
+  "admin.payment.vtexpayment.installments.numberOfInstallmentsInterestFree": "Number of installments interest free",
+  "admin.payment.vtexpayment.installments.numberOfInstallmentsInterestFree.description": "Number of interest-free installments for this form of payment.",
+  "admin.payment.vtexpayment.softDescriptor": "Soft Descriptor",
+  "admin.payment.vtexpayment.softDescriptor.description": "Text printed on buyer's bank invoice",
+  "admin.payment.vtexpayment.maxInstallments": "Maximum number of installments (Redirect only)"
+}

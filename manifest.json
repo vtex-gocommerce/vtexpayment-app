@@ -1,0 +1,21 @@
+{
+  "name": "vtexpayment-app",
+  "vendor": "gocommerce",
+  "version": "0.0.3",
+  "title": "VTEX Payment",
+  "description": "VTEX Payment App",
+  "mustUpdateAt": "2019-03-02",
+  "credentialType": "absolute",
+  "registries": ["smartcheckout", "gocommerce"],
+  "categories": ["gocommerce", "payments"],
+  "dependencies": {
+    "gocommerce.admin": "1.x",
+    "gocommerce.admin-gateway": "1.x",
+    "gocommerce.gc-context": "0.x"
+  },
+  "builders": {
+    "react": "3.x",
+    "pages": "1.x",
+    "messages": "1.x"
+  }
+}
