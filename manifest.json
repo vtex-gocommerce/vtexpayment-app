@@ -1,7 +1,7 @@
 {
   "name": "vtexpayment-app",
   "vendor": "gocommerce",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "title": "VTEX Payment",
   "description": "VTEX Payment App",
   "mustUpdateAt": "2019-03-02",

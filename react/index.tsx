@@ -84,29 +84,20 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
               },
               "boxApplicationSetup": {
                 "title": intl.formatMessage({ id: `${intlPrefix}.boxApplicationSetup` }),
-                "button": "Instalar aplicativo",
                 "id": "applicationSetup",
-                "showFieldsOnlyAuthorized": true,
-                "fields": {}
-              },
-              "boxAdditionalSetup": {
-                "title": intl.formatMessage({ id: `${intlPrefix}.boxAdditionalSetup` }),
-                "id": "additionalSetup",
                 "fields": {
-                  "affiliation.configuration.SoftDescriptor": {
+                  "affiliation.configuration.appKey": {
                     "type": "string",
                     "widget": "text",
-                    "title": intl.formatMessage({ id: `${intlPrefix}.softDescriptor` }),
-                    "description": intl.formatMessage({ id: `${intlPrefix}.softDescriptor.description` }),
+                    "title": "appKey",
                     "validate": {
-                      "maxLength": 13
+                      "required": true
                     }
                   },
-                  "affiliation.configuration.maxInstallments": {
-                    "type": "number",
-                    "widget": "select",
-                    "title": intl.formatMessage({ id: `${intlPrefix}.maxInstallments` }),
-                    "options": optionsMaxInstallments,
+                  "affiliation.configuration.appToken": {
+                    "type": "string",
+                    "widget": "text",
+                    "title": "appToken",
                     "validate": {
                       "required": true
                     }
@@ -149,13 +140,12 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
               }
             },
             "additionalData": {
-              "requireAuthorize": true,
+              "requireAuthorize": false,
               "description": intl.formatMessage({ id: `${intlPrefix}.additionalData.description` })
             },
             "initialValues": {
               "paymentAlias": "vtexpayment",
               "creditCardActive": false,
-              "redirectActive": false,
               "numberOfInstallments": 12,
               "numberOfInstallmentsInterestFree": 1,
               "affiliation.configuration.maxInstallments": 12
