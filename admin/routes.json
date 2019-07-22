@@ -1,0 +1,6 @@
+{
+  "admin.gateway.vtexpayment-app": {
+    "component": "index",
+    "path": "/admin/app/gateway/payments/gocommerce.vtexpayment-app"
+  }
+}
